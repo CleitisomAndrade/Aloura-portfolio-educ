@@ -17,13 +17,16 @@ body{
     color: #22D4FD;
 }
 .apresentacao{
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .apresentacao_conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column ;
+    gap: 40px;
 }
 .apresentacao_titulo {
     font-size: 36px;
@@ -31,5 +34,22 @@ body{
 .apresentacao_texto {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;;
+
+}
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao_links_link {
+    background-color: #22D4FD;
+    width: 150px; /* AUMENTA OS LADOS*/
+    text-align: center;
+    font-weight: 600; /*largura da fonte do texto*/
+    border-radius: 10px; /*altera as bordas*/
+    font-size: 24px;
+    padding: 10px  0px; /*"PADDING" UTILIZADO PARA AUMENTAR AS MAGEENS DOS BOTOES, PRIMEIRO ELE CRESCE PARA CIMA DEPOIS PARA OS LADOS*/
+    text-decoration: none;
+    color: #000000;
+    font-family: "Krona One", sans-serif;
 
 }
